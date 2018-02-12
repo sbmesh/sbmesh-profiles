@@ -37,6 +37,7 @@ Save file.
 
 **Note:** Running `umask 022` might only be necessary in our particular Vagrant instance
 umask 022
+
 ```
 ./cooker -c ar71xx/generic --profile=ubnt-nano-m-xw --flavor=lime_default --community=ubnt-nano-m-xw/default --remote
 ```
