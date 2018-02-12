@@ -22,9 +22,9 @@ config lime network
 	list protocols anygw
 	list protocols batadv:0
 	list protocols bmx6:13
-	list resolvers 4.2.2.2   # b.resolvers.Level3.net
-	list resolvers 141.1.1.1 # cns1.cw.net
-	list resolvers 2001:470:20::2 # ordns.he.net
+	list resolvers 208.67.222.222   # OpenDNS
+	list resolvers 8.8.8.8 # Google
+	list resolvers 2001:4860:4860::8844 # Google
 	option bmx6_over_batman false
 	option bmx6_pref_gw none
 	option bmx7_over_batman false
