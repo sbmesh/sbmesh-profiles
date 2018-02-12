@@ -1,3 +1,0 @@
-#!/bin/sh
-cat /etc/sbmesh/sbmesh.banner >> /etc/banner
-exit 0
